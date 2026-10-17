@@ -83,3 +83,7 @@ References
   
   Proakis & Manolakis, Oppenheim, CPCB AQI Guidelines, WHO 2024
 
+
+## Results Graphs
+    ![Filtered Result](images/filtered_result.png)
+    ![FFT Spectrum](images/fft_spectrum.png)
