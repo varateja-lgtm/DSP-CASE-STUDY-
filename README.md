@@ -1,10 +1,10 @@
-Air Pollution Monitoring using Digital Filters and Fast Fourier Transform
+## Air Pollution Monitoring using Digital Filters and Fast Fourier Transform
 
-DSP Case Study - B.Tech ECE
+### DSP Case Study - B.Tech ECE
 
-System
+    System
 
-Abstract
+#### Abstract
 
 Air pollution is a critical environmental issue. Raw sensor data (PM2.5, PM10, NO2, CO) is highly noisy due to sensor drift, environmental interference, and quantization noise. This case study demonstrates how Digital Signal Processing techniques - specifically Digital Filters (Moving Average, FIR Low-pass, IIR Butterworth) and Fast Fourier Transform (FFT) - can be used to clean, analyze, and extract meaningful patterns from air pollution data for real-time AQI monitoring and alert systems.
 
@@ -26,7 +26,7 @@ Air pollution is a critical environmental issue. Raw sensor data (PM2.5, PM10, N
 
   
 
-         Sensors -> ADC -> Pre-processing -> Digital Filters -> FFT -> Feature Extraction & AQI -> Visualization & Alert
+     Sensors -> ADC -> Pre-processing -> Digital Filters -> FFT -> Feature Extraction & AQI -> Visualization & Alert
   
   See images/block_diagram.png
 
@@ -79,7 +79,7 @@ Air pollution is a critical environmental issue. Raw sensor data (PM2.5, PM10, N
   ML integration, Wavelet transform, ESP32 edge implementation
 
 
-References
+#### References
   
   Proakis & Manolakis, Oppenheim, CPCB AQI Guidelines, WHO 2024
 
@@ -87,3 +87,17 @@ References
 ## Results Graphs
     ![Filtered Result](images/filtered_result.png)
     ![FFT Spectrum](images/fft_spectrum.png)
+
+
+## How to Run (For Anyone)
+
+1. Clone this repo:
+   git clone https://github.com/varateja-lgtm/DSP-CASE-STUDY-.git
+
+2. Install requirements:
+   pip install -r requirements.txt
+
+3. Run:
+   python code/main.py
+
+Results will be saved in images/ folder.
